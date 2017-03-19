@@ -1,0 +1,682 @@
+[
+  {
+    "name": "W. C. Mitchell",
+    "email": "wcmitchell@email.com",
+    "manager": null
+  },
+  {
+    "name": "E. R. Diaz",
+    "email": "erdiaz@email.com",
+    "manager": "wcmitchell@email.com"
+  },
+  {
+    "name": "W. T. Allen",
+    "email": "wtallen@email.com",
+    "manager": "erdiaz@email.com"
+  },
+  {
+    "name": "R. T. Wilson",
+    "email": "rtwilson@email.com",
+    "manager": "wtallen@email.com"
+  },
+  {
+    "name": "D. G. Harris",
+    "email": "dgharris@email.com",
+    "manager": "rtwilson@email.com"
+  },
+  {
+    "name": "B. O. Bennett",
+    "email": "bobennett@email.com",
+    "manager": "rtwilson@email.com"
+  },
+  {
+    "name": "E. C. Peterson",
+    "email": "ecpeterson@email.com",
+    "manager": "rtwilson@email.com"
+  },
+  {
+    "name": "D. N. Allen",
+    "email": "dnallen@email.com",
+    "manager": "rtwilson@email.com"
+  },
+  {
+    "name": "I. I. Anderson",
+    "email": "iianderson@email.com",
+    "manager": "wtallen@email.com"
+  },
+  {
+    "name": "L. P. Thomas",
+    "email": "lpthomas@email.com",
+    "manager": "iianderson@email.com"
+  },
+  {
+    "name": "G. G. Ross",
+    "email": "ggross@email.com",
+    "manager": "iianderson@email.com"
+  },
+  {
+    "name": "C. C. Ramirez",
+    "email": "ccramirez@email.com",
+    "manager": "iianderson@email.com"
+  },
+  {
+    "name": "D. A. Roberts",
+    "email": "daroberts@email.com",
+    "manager": "iianderson@email.com"
+  },
+  {
+    "name": "E. J. Reyes",
+    "email": "ejreyes@email.com",
+    "manager": "erdiaz@email.com"
+  },
+  {
+    "name": "K. C. Harris",
+    "email": "kcharris@email.com",
+    "manager": "ejreyes@email.com"
+  },
+  {
+    "name": "A. P. Torres",
+    "email": "aptorres@email.com",
+    "manager": "kcharris@email.com"
+  },
+  {
+    "name": "O. I. Martinez",
+    "email": "oimartinez@email.com",
+    "manager": "kcharris@email.com"
+  },
+  {
+    "name": "A. G. Gutierrez",
+    "email": "aggutierrez@email.com",
+    "manager": "kcharris@email.com"
+  },
+  {
+    "name": "A. N. Lewis",
+    "email": "anlewis@email.com",
+    "manager": "kcharris@email.com"
+  },
+  {
+    "name": "E. W. Fisher",
+    "email": "ewfisher@email.com",
+    "manager": "ejreyes@email.com"
+  },
+  {
+    "name": "C. L. Reyes",
+    "email": "clreyes@email.com",
+    "manager": "ewfisher@email.com"
+  },
+  {
+    "name": "L. M. Young",
+    "email": "lmyoung@email.com",
+    "manager": "ewfisher@email.com"
+  },
+  {
+    "name": "N. O. Jones",
+    "email": "nojones@email.com",
+    "manager": "ewfisher@email.com"
+  },
+  {
+    "name": "L. S. Hughes",
+    "email": "lshughes@email.com",
+    "manager": "ewfisher@email.com"
+  },
+  {
+    "name": "D. J. Hall",
+    "email": "djhall@email.com",
+    "manager": "erdiaz@email.com"
+  },
+  {
+    "name": "B. L. Cox",
+    "email": "blcox@email.com",
+    "manager": "djhall@email.com"
+  },
+  {
+    "name": "F. F. Hall",
+    "email": "ffhall@email.com",
+    "manager": "blcox@email.com"
+  },
+  {
+    "name": "B. L. Edwards",
+    "email": "bledwards@email.com",
+    "manager": "blcox@email.com"
+  },
+  {
+    "name": "G. N. Lopez",
+    "email": "gnlopez@email.com",
+    "manager": "blcox@email.com"
+  },
+  {
+    "name": "K. P. Lopez",
+    "email": "kplopez@email.com",
+    "manager": "blcox@email.com"
+  },
+  {
+    "name": "B. C. Hill",
+    "email": "bchill@email.com",
+    "manager": "djhall@email.com"
+  },
+  {
+    "name": "S. A. Howard",
+    "email": "sahoward@email.com",
+    "manager": "bchill@email.com"
+  },
+  {
+    "name": "N. K. Rivera",
+    "email": "nkrivera@email.com",
+    "manager": "bchill@email.com"
+  },
+  {
+    "name": "W. W. Diaz",
+    "email": "wwdiaz@email.com",
+    "manager": "bchill@email.com"
+  },
+  {
+    "name": "W. I. Myers",
+    "email": "wimyers@email.com",
+    "manager": "bchill@email.com"
+  },
+  {
+    "name": "R. B. Allen",
+    "email": "rballen@email.com",
+    "manager": "erdiaz@email.com"
+  },
+  {
+    "name": "F. D. Smith",
+    "email": "fdsmith@email.com",
+    "manager": "rballen@email.com"
+  },
+  {
+    "name": "L. O. Morris",
+    "email": "lomorris@email.com",
+    "manager": "fdsmith@email.com"
+  },
+  {
+    "name": "L. G. Morales",
+    "email": "lgmorales@email.com",
+    "manager": "fdsmith@email.com"
+  },
+  {
+    "name": "F. I. Harris",
+    "email": "fiharris@email.com",
+    "manager": "fdsmith@email.com"
+  },
+  {
+    "name": "G. S. Davis",
+    "email": "gsdavis@email.com",
+    "manager": "fdsmith@email.com"
+  },
+  {
+    "name": "B. H. Campbell",
+    "email": "bhcampbell@email.com",
+    "manager": "rballen@email.com"
+  },
+  {
+    "name": "L. E. Gonzalez",
+    "email": "legonzalez@email.com",
+    "manager": "bhcampbell@email.com"
+  },
+  {
+    "name": "P. D. Jones",
+    "email": "pdjones@email.com",
+    "manager": "bhcampbell@email.com"
+  },
+  {
+    "name": "H. J. Harris",
+    "email": "hjharris@email.com",
+    "manager": "bhcampbell@email.com"
+  },
+  {
+    "name": "S. I. Gray",
+    "email": "sigray@email.com",
+    "manager": "bhcampbell@email.com"
+  },
+  {
+    "name": "S. L. Cook",
+    "email": "slcook@email.com",
+    "manager": "wcmitchell@email.com"
+  },
+  {
+    "name": "O. F. Collins",
+    "email": "ofcollins@email.com",
+    "manager": "slcook@email.com"
+  },
+  {
+    "name": "I. M. Richardson",
+    "email": "imrichardson@email.com",
+    "manager": "ofcollins@email.com"
+  },
+  {
+    "name": "C. B. Adams",
+    "email": "cbadams@email.com",
+    "manager": "imrichardson@email.com"
+  },
+  {
+    "name": "K. J. Murphy",
+    "email": "kjmurphy@email.com",
+    "manager": "imrichardson@email.com"
+  },
+  {
+    "name": "B. D. Reed",
+    "email": "bdreed@email.com",
+    "manager": "imrichardson@email.com"
+  },
+  {
+    "name": "W. C. Howard",
+    "email": "wchoward@email.com",
+    "manager": "imrichardson@email.com"
+  },
+  {
+    "name": "J. W. Baker",
+    "email": "jwbaker@email.com",
+    "manager": "ofcollins@email.com"
+  },
+  {
+    "name": "J. H. Anderson",
+    "email": "jhanderson@email.com",
+    "manager": "jwbaker@email.com"
+  },
+  {
+    "name": "H. P. Rodriguez",
+    "email": "hprodriguez@email.com",
+    "manager": "jwbaker@email.com"
+  },
+  {
+    "name": "R. G. Hughes",
+    "email": "rghughes@email.com",
+    "manager": "jwbaker@email.com"
+  },
+  {
+    "name": "L. F. Reyes",
+    "email": "lfreyes@email.com",
+    "manager": "jwbaker@email.com"
+  },
+  {
+    "name": "G. E. Ross",
+    "email": "geross@email.com",
+    "manager": "slcook@email.com"
+  },
+  {
+    "name": "P. P. Jenkins",
+    "email": "ppjenkins@email.com",
+    "manager": "geross@email.com"
+  },
+  {
+    "name": "A. S. Wilson",
+    "email": "aswilson@email.com",
+    "manager": "ppjenkins@email.com"
+  },
+  {
+    "name": "B. E. Hughes",
+    "email": "behughes@email.com",
+    "manager": "ppjenkins@email.com"
+  },
+  {
+    "name": "C. J. Rodriguez",
+    "email": "cjrodriguez@email.com",
+    "manager": "ppjenkins@email.com"
+  },
+  {
+    "name": "W. P. Flores",
+    "email": "wpflores@email.com",
+    "manager": "ppjenkins@email.com"
+  },
+  {
+    "name": "O. J. Torres",
+    "email": "ojtorres@email.com",
+    "manager": "geross@email.com"
+  },
+  {
+    "name": "F. S. Hernandez",
+    "email": "fshernandez@email.com",
+    "manager": "ojtorres@email.com"
+  },
+  {
+    "name": "S. J. Lee",
+    "email": "sjlee@email.com",
+    "manager": "ojtorres@email.com"
+  },
+  {
+    "name": "N. B. King",
+    "email": "nbking@email.com",
+    "manager": "ojtorres@email.com"
+  },
+  {
+    "name": "P. C. Robinson",
+    "email": "pcrobinson@email.com",
+    "manager": "ojtorres@email.com"
+  },
+  {
+    "name": "R. L. Lewis",
+    "email": "rllewis@email.com",
+    "manager": "slcook@email.com"
+  },
+  {
+    "name": "R. K. White",
+    "email": "rkwhite@email.com",
+    "manager": "rllewis@email.com"
+  },
+  {
+    "name": "C. E. Collins",
+    "email": "cecollins@email.com",
+    "manager": "rkwhite@email.com"
+  },
+  {
+    "name": "B. W. Roberts",
+    "email": "bwroberts@email.com",
+    "manager": "rkwhite@email.com"
+  },
+  {
+    "name": "F. F. Foster",
+    "email": "fffoster@email.com",
+    "manager": "rkwhite@email.com"
+  },
+  {
+    "name": "N. W. Barnes",
+    "email": "nwbarnes@email.com",
+    "manager": "rkwhite@email.com"
+  },
+  {
+    "name": "J. J. Parker",
+    "email": "jjparker@email.com",
+    "manager": "rllewis@email.com"
+  },
+  {
+    "name": "C. A. Allen",
+    "email": "caallen@email.com",
+    "manager": "jjparker@email.com"
+  },
+  {
+    "name": "C. I. Murphy",
+    "email": "cimurphy@email.com",
+    "manager": "jjparker@email.com"
+  },
+  {
+    "name": "G. K. Campbell",
+    "email": "gkcampbell@email.com",
+    "manager": "jjparker@email.com"
+  },
+  {
+    "name": "C. F. Torres",
+    "email": "cftorres@email.com",
+    "manager": "jjparker@email.com"
+  },
+  {
+    "name": "N. M. Walker",
+    "email": "nmwalker@email.com",
+    "manager": "slcook@email.com"
+  },
+  {
+    "name": "T. K. Ward",
+    "email": "tkward@email.com",
+    "manager": "nmwalker@email.com"
+  },
+  {
+    "name": "K. E. Howard",
+    "email": "kehoward@email.com",
+    "manager": "tkward@email.com"
+  },
+  {
+    "name": "R. G. Lewis",
+    "email": "rglewis@email.com",
+    "manager": "tkward@email.com"
+  },
+  {
+    "name": "I. G. Perry",
+    "email": "igperry@email.com",
+    "manager": "tkward@email.com"
+  },
+  {
+    "name": "N. R. Russell",
+    "email": "nrrussell@email.com",
+    "manager": "tkward@email.com"
+  },
+  {
+    "name": "S. C. Thomas",
+    "email": "scthomas@email.com",
+    "manager": "nmwalker@email.com"
+  },
+  {
+    "name": "O. O. Miller",
+    "email": "oomiller@email.com",
+    "manager": "scthomas@email.com"
+  },
+  {
+    "name": "A. J. Sanders",
+    "email": "ajsanders@email.com",
+    "manager": "scthomas@email.com"
+  },
+  {
+    "name": "P. A. Reyes",
+    "email": "pareyes@email.com",
+    "manager": "scthomas@email.com"
+  },
+  {
+    "name": "A. C. Turner",
+    "email": "acturner@email.com",
+    "manager": "scthomas@email.com"
+  },
+  {
+    "name": "O. K. Butler",
+    "email": "okbutler@email.com",
+    "manager": "wcmitchell@email.com"
+  },
+  {
+    "name": "B. M. Smith",
+    "email": "bmsmith@email.com",
+    "manager": "okbutler@email.com"
+  },
+  {
+    "name": "G. H. Diaz",
+    "email": "ghdiaz@email.com",
+    "manager": "bmsmith@email.com"
+  },
+  {
+    "name": "E. S. Wood",
+    "email": "eswood@email.com",
+    "manager": "ghdiaz@email.com"
+  },
+  {
+    "name": "F. K. Roberts",
+    "email": "fkroberts@email.com",
+    "manager": "ghdiaz@email.com"
+  },
+  {
+    "name": "F. K. Myers",
+    "email": "fkmyers@email.com",
+    "manager": "ghdiaz@email.com"
+  },
+  {
+    "name": "L. R. Powell",
+    "email": "lrpowell@email.com",
+    "manager": "ghdiaz@email.com"
+  },
+  {
+    "name": "D. D. Sullivan",
+    "email": "ddsullivan@email.com",
+    "manager": "bmsmith@email.com"
+  },
+  {
+    "name": "H. K. Turner",
+    "email": "hkturner@email.com",
+    "manager": "ddsullivan@email.com"
+  },
+  {
+    "name": "S. L. Butler",
+    "email": "slbutler@email.com",
+    "manager": "ddsullivan@email.com"
+  },
+  {
+    "name": "P. S. Gray",
+    "email": "psgray@email.com",
+    "manager": "ddsullivan@email.com"
+  },
+  {
+    "name": "I. O. Fisher",
+    "email": "iofisher@email.com",
+    "manager": "ddsullivan@email.com"
+  },
+  {
+    "name": "D. W. Ortiz",
+    "email": "dwortiz@email.com",
+    "manager": "okbutler@email.com"
+  },
+  {
+    "name": "K. E. Sanchez",
+    "email": "kesanchez@email.com",
+    "manager": "dwortiz@email.com"
+  },
+  {
+    "name": "F. P. Richardson",
+    "email": "fprichardson@email.com",
+    "manager": "kesanchez@email.com"
+  },
+  {
+    "name": "O. P. Foster",
+    "email": "opfoster@email.com",
+    "manager": "kesanchez@email.com"
+  },
+  {
+    "name": "I. H. Perez",
+    "email": "ihperez@email.com",
+    "manager": "kesanchez@email.com"
+  },
+  {
+    "name": "B. B. Powell",
+    "email": "bbpowell@email.com",
+    "manager": "kesanchez@email.com"
+  },
+  {
+    "name": "H. L. Jackson",
+    "email": "hljackson@email.com",
+    "manager": "dwortiz@email.com"
+  },
+  {
+    "name": "S. R. Bell",
+    "email": "srbell@email.com",
+    "manager": "hljackson@email.com"
+  },
+  {
+    "name": "O. M. Reed",
+    "email": "omreed@email.com",
+    "manager": "hljackson@email.com"
+  },
+  {
+    "name": "O. K. Gutierrez",
+    "email": "okgutierrez@email.com",
+    "manager": "hljackson@email.com"
+  },
+  {
+    "name": "R. C. Ross",
+    "email": "rcross@email.com",
+    "manager": "hljackson@email.com"
+  },
+  {
+    "name": "T. S. Lee",
+    "email": "tslee@email.com",
+    "manager": "okbutler@email.com"
+  },
+  {
+    "name": "D. S. Cruz",
+    "email": "dscruz@email.com",
+    "manager": "tslee@email.com"
+  },
+  {
+    "name": "P. L. Thompson",
+    "email": "plthompson@email.com",
+    "manager": "dscruz@email.com"
+  },
+  {
+    "name": "A. G. Rogers",
+    "email": "agrogers@email.com",
+    "manager": "dscruz@email.com"
+  },
+  {
+    "name": "E. H. Perry",
+    "email": "ehperry@email.com",
+    "manager": "dscruz@email.com"
+  },
+  {
+    "name": "E. J. Carter",
+    "email": "ejcarter@email.com",
+    "manager": "dscruz@email.com"
+  },
+  {
+    "name": "L. I. Morgan",
+    "email": "limorgan@email.com",
+    "manager": "tslee@email.com"
+  },
+  {
+    "name": "H. P. Young",
+    "email": "hpyoung@email.com",
+    "manager": "limorgan@email.com"
+  },
+  {
+    "name": "G. L. Perry",
+    "email": "glperry@email.com",
+    "manager": "limorgan@email.com"
+  },
+  {
+    "name": "L. R. Brown",
+    "email": "lrbrown@email.com",
+    "manager": "limorgan@email.com"
+  },
+  {
+    "name": "K. P. Howard",
+    "email": "kphoward@email.com",
+    "manager": "limorgan@email.com"
+  },
+  {
+    "name": "N. H. Hughes",
+    "email": "nhhughes@email.com",
+    "manager": "okbutler@email.com"
+  },
+  {
+    "name": "H. G. Reyes",
+    "email": "hgreyes@email.com",
+    "manager": "nhhughes@email.com"
+  },
+  {
+    "name": "C. K. Johnson",
+    "email": "ckjohnson@email.com",
+    "manager": "hgreyes@email.com"
+  },
+  {
+    "name": "H. P. Nelson",
+    "email": "hpnelson@email.com",
+    "manager": "hgreyes@email.com"
+  },
+  {
+    "name": "D. E. Morris",
+    "email": "demorris@email.com",
+    "manager": "hgreyes@email.com"
+  },
+  {
+    "name": "W. T. Hughes",
+    "email": "wthughes@email.com",
+    "manager": "hgreyes@email.com"
+  },
+  {
+    "name": "T. F. Martin",
+    "email": "tfmartin@email.com",
+    "manager": "nhhughes@email.com"
+  },
+  {
+    "name": "T. L. Davis",
+    "email": "tldavis@email.com",
+    "manager": "tfmartin@email.com"
+  },
+  {
+    "name": "G. A. Perez",
+    "email": "gaperez@email.com",
+    "manager": "tfmartin@email.com"
+  },
+  {
+    "name": "F. F. Stewart",
+    "email": "ffstewart@email.com",
+    "manager": "tfmartin@email.com"
+  },
+  {
+    "name": "D. D. Martinez",
+    "email": "ddmartinez@email.com",
+    "manager": "tfmartin@email.com"
+  }
+]
