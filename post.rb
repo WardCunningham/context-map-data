@@ -3,9 +3,8 @@
 
 now = Time.new
 
-p [now.hour, now.min]
-
 def post slug
+  p [now.hour, now.min, slug]
   type = '-H "Content-Type: application/json"'
   key = '-H "X-Api-Key:35ece947aa90b582"'
   endpoint = "http://context.asia.wiki.org/plugin/json/#{slug}"
@@ -13,5 +12,5 @@ def post slug
 end
     
 
-post('organization-chart') if [now.hour, now.min] == [16, 20]
+post('organization-chart') if [now.hour, now.min] == [4, 20]
 post('source-code-control') if ([9,10,11,13,14,15,16].include? now.hour) && (rand(100) < 20)
