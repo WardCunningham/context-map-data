@@ -3,6 +3,8 @@ require 'json'
 @width = [3, 4, 2, 4, 0]
 @staff = []
 @teams = {}
+@nodes = []
+@flows = []
 
 def json file 
   JSON.parse File.read(file, :encoding => 'utf-8')
@@ -27,7 +29,11 @@ end
 def project manager, team
   greek =['Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega']
   prefix = any greek
-  programs = (1..any([3,4,5,6])).map{a = any @algorithms; {name: "#{prefix} #{a['name']}", description: a['description'], team: team}}
+  programs = (1..any([3,4,5,6])).map do
+    a = any @algorithms
+    @nodes << n = "#{prefix} #{a['name']}"
+    {name: n, description: a['description'], team: team}
+  end
   {project: "#{prefix} #{any greek}", manager: manager, programs: programs}
 end
 
@@ -40,6 +46,23 @@ def staff depth, boss
   end
 end
 
+def flow node
+  from = any @nodes
+  case rand(10)
+  when 0,1,2,3,4
+    @flows << {type: 'rest', from: from, to: node}
+  when 5,6
+    q = (1..3).map{any((from+' '+node).scan(/\w+/))}.join('_').downcase
+    @flows << {type: 'queue', queue: q, write: from}
+    @flows << {type: 'queue', queue: q, read: node}
+  when 7,8
+    @flows << {type: 'store', store: any(['mysql','redis','memcache','elastic','neo4j']), from: node}
+  when 9
+    @flows << {type: 'site', site: any(['amazon','google','apple','microsoft','wikipedia']), from: node}
+  end
+end
+
+
 def save name, data
   File.open "data/#{name}", 'w' do |file|
     file.puts JSON.pretty_generate data
@@ -49,3 +72,5 @@ end
 staff 0, person
 save 'organization-chart', @staff
 save 'source-code-control', @teams.map {|manager, team| project manager, team}
+@nodes.each{ |node| flow node }
+save 'dataflow-diagram', @flows
