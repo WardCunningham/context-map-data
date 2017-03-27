@@ -1,737 +1,567 @@
 [
   {
-    "type": "rest",
-    "from": "Delta Minimax",
-    "to": "Sigma Ridder's method"
-  },
-  {
-    "type": "site",
-    "site": "microsoft",
-    "from": "Sigma Phong shading"
-  },
-  {
-    "type": "rest",
-    "from": "Sigma Shading",
-    "to": "Sigma OPTICS"
-  },
-  {
-    "type": "queue",
-    "queue": "fast_eta_folding",
-    "write": "Eta Fast folding algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "fast_eta_folding",
-    "read": "Sigma Minimax"
-  },
-  {
-    "type": "rest",
-    "from": "Gamma Multiplication algorithm",
-    "to": "Sigma Manning Criteria"
-  },
-  {
-    "type": "store",
-    "store": "elastic",
-    "from": "Gamma Multiplication algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Mu Ternary search",
-    "to": "Gamma Hindley–Milner type inference algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Alpha Kruskal's algorithm",
-    "to": "Gamma EXP2"
-  },
-  {
-    "type": "store",
-    "store": "mysql",
-    "from": "Gamma Hopcroft–Karp algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Sigma Ridder's method",
-    "to": "Gamma Partial least squares regression"
-  },
-  {
-    "type": "rest",
-    "from": "Lambda Sieve of Eratosthenes",
-    "to": "Mu Lempel–Ziv–Storer–Szymanski"
-  },
-  {
-    "type": "rest",
-    "from": "Mu SPWGNN",
-    "to": "Mu Page replacement algorithms"
-  },
-  {
-    "type": "queue",
-    "queue": "mu_felics_mu",
-    "write": "Pi FELICS"
-  },
-  {
-    "type": "queue",
-    "queue": "mu_felics_mu",
-    "read": "Mu Longest common substring problem"
-  },
-  {
-    "type": "rest",
-    "from": "Delta Fibonacci search technique",
-    "to": "Mu Entropy encoding"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Hirschberg's algorithm",
-    "to": "Alpha Levenshtein edit distance"
-  },
-  {
-    "type": "rest",
-    "from": "Pi Fermat's factorization method",
-    "to": "Alpha Pancake sorting"
-  },
-  {
-    "type": "queue",
-    "queue": "alpha_alpha_algorithm",
-    "write": "Alpha Pancake sorting"
-  },
-  {
-    "type": "queue",
-    "queue": "alpha_alpha_algorithm",
-    "read": "Alpha Kruskal's algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Tau Multiplication algorithm",
-    "to": "Alpha Library sort"
-  },
-  {
-    "type": "queue",
-    "queue": "n_body_lambda",
-    "write": "Lambda N-body problem"
-  },
-  {
-    "type": "queue",
-    "queue": "n_body_lambda",
-    "read": "Alpha Random walker algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "minimax_sigma_moore",
-    "write": "Sigma Minimax"
-  },
-  {
-    "type": "queue",
-    "queue": "minimax_sigma_moore",
-    "read": "Theta Boyer–Moore–Horspool algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Beta Yamartino method",
-    "to": "Theta Median filtering"
-  },
-  {
-    "type": "queue",
-    "queue": "prime_tau_theta",
-    "write": "Tau prime"
-  },
-  {
-    "type": "queue",
-    "queue": "prime_tau_theta",
-    "read": "Theta Jacobi method"
-  },
-  {
-    "type": "rest",
-    "from": "Pi Transitive closure",
-    "to": "Theta Code-excited linear prediction"
-  },
-  {
     "type": "site",
     "site": "apple",
-    "from": "Eta Fast folding algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "exp1_prime_prime",
-    "write": "Tau prime"
-  },
-  {
-    "type": "queue",
-    "queue": "exp1_prime_prime",
-    "read": "Eta EXP1"
+    "from": "Omega Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem."
   },
   {
     "type": "rest",
-    "from": "Tau Strongly connected components",
-    "to": "Eta Beam stack search"
+    "from": "Eta Histogram equalization",
+    "to": "Omega Pareto interpolation"
+  },
+  {
+    "type": "store",
+    "store": "redis",
+    "from": "Omega Heap's permutation generation algorithm"
+  },
+  {
+    "type": "site",
+    "site": "google",
+    "from": "Omega Buchberger's algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Knuth–Bendix completion algorithm",
+    "to": "Chi Stochastic universal sampling"
+  },
+  {
+    "type": "store",
+    "store": "redis",
+    "from": "Chi General Problem Solver"
   },
   {
     "type": "store",
     "store": "neo4j",
-    "from": "Eta Jacobi method"
-  },
-  {
-    "type": "rest",
-    "from": "Mu Ternary search",
-    "to": "Eta Algorithms for calculating variance"
-  },
-  {
-    "type": "rest",
-    "from": "Sigma OPTICS",
-    "to": "Eta Ground state"
-  },
-  {
-    "type": "rest",
-    "from": "Pi Beam stack search",
-    "to": "Tau Lanczos resampling"
-  },
-  {
-    "type": "rest",
-    "from": "Phi False position method",
-    "to": "Tau Multiplication algorithm"
-  },
-  {
-    "type": "store",
-    "store": "memcache",
-    "from": "Tau Strongly connected components"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Hirschberg's algorithm",
-    "to": "Tau WACA clustering algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Pi Transitive closure",
-    "to": "Tau Sort-Merge Join"
-  },
-  {
-    "type": "queue",
-    "queue": "string_algorithm_jacobi",
-    "write": "Theta Jacobi method"
-  },
-  {
-    "type": "queue",
-    "queue": "string_algorithm_jacobi",
-    "read": "Beta Boyer–Moore string search algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Tau Scanline rendering",
-    "to": "Beta LR parser"
-  },
-  {
-    "type": "store",
-    "store": "redis",
-    "from": "Beta Yamartino method"
-  },
-  {
-    "type": "queue",
-    "queue": "backtracking_huang_beta",
-    "write": "Lambda Huang's algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "backtracking_huang_beta",
-    "read": "Beta Backtracking"
-  },
-  {
-    "type": "queue",
-    "queue": "generalised_problem_transform",
-    "write": "Nu Euclidean shortest path problem"
-  },
-  {
-    "type": "queue",
-    "queue": "generalised_problem_transform",
-    "read": "Beta Generalised Hough transform"
-  },
-  {
-    "type": "queue",
-    "queue": "beta_beta_upgma",
-    "write": "Omega UPGMA"
-  },
-  {
-    "type": "queue",
-    "queue": "beta_beta_upgma",
-    "read": "Beta Generalised Hough transform"
-  },
-  {
-    "type": "rest",
-    "from": "Gamma Tarjan's off-line least common ancestors algorithm",
-    "to": "Nu Euclidean shortest path problem"
-  },
-  {
-    "type": "rest",
-    "from": "Eta Fast folding algorithm",
-    "to": "Nu Adaptive histogram equalization"
-  },
-  {
-    "type": "rest",
-    "from": "Eta Ground state",
-    "to": "Nu Code-excited linear prediction"
-  },
-  {
-    "type": "rest",
-    "from": "Delta Minimax",
-    "to": "Nu LR parser"
-  },
-  {
-    "type": "rest",
-    "from": "Mu Ternary search",
-    "to": "Delta Fibonacci search technique"
-  },
-  {
-    "type": "store",
-    "store": "elastic",
-    "from": "Delta Computation of π"
-  },
-  {
-    "type": "queue",
-    "queue": "delta_beta_yamartino",
-    "write": "Beta Yamartino method"
-  },
-  {
-    "type": "queue",
-    "queue": "delta_beta_yamartino",
-    "read": "Delta Algorithm X"
-  },
-  {
-    "type": "rest",
-    "from": "Gamma Bluestein's FFT algorithm",
-    "to": "Delta Linear interpolation"
-  },
-  {
-    "type": "store",
-    "store": "mysql",
-    "from": "Delta Minimax"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Damm algorithm",
-    "to": "Delta Contour line"
-  },
-  {
-    "type": "rest",
-    "from": "Tau prime",
-    "to": "Omega Video compression"
-  },
-  {
-    "type": "rest",
-    "from": "Mu MISER algorithm",
-    "to": "Omega UPGMA"
-  },
-  {
-    "type": "rest",
-    "from": "Pi Hamming code",
-    "to": "Omega Transitive closure"
-  },
-  {
-    "type": "store",
-    "store": "memcache",
-    "from": "Tau Scanline rendering"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Hash Function",
-    "to": "Tau Bootstrap aggregating"
-  },
-  {
-    "type": "queue",
-    "queue": "phi_johnson_algorithm",
-    "write": "Phi Johnson algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "phi_johnson_algorithm",
-    "read": "Tau k-means++"
-  },
-  {
-    "type": "queue",
-    "queue": "upgma_upgma_prime",
-    "write": "Omega UPGMA"
-  },
-  {
-    "type": "queue",
-    "queue": "upgma_upgma_prime",
-    "read": "Tau prime"
-  },
-  {
-    "type": "store",
-    "store": "memcache",
-    "from": "Tau Ziggurat algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Pi prime factors",
-    "to": "Tau transaction recovery"
-  },
-  {
-    "type": "rest",
-    "from": "Gamma Graham scan",
-    "to": "Mu Newton's equations of motion"
-  },
-  {
-    "type": "queue",
-    "queue": "sieve_lambda_spwgnn",
-    "write": "Lambda Sieve of Eratosthenes"
-  },
-  {
-    "type": "queue",
-    "queue": "sieve_lambda_spwgnn",
-    "read": "Mu SPWGNN"
-  },
-  {
-    "type": "rest",
-    "from": "Pi Hamming code",
-    "to": "Mu Ternary search"
-  },
-  {
-    "type": "queue",
-    "queue": "mu_beam_double",
-    "write": "Eta Beam stack search"
-  },
-  {
-    "type": "queue",
-    "queue": "mu_beam_double",
-    "read": "Mu Double Metaphone"
-  },
-  {
-    "type": "rest",
-    "from": "Beta Generalised Hough transform",
-    "to": "Mu MISER algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Eta Algorithms for calculating variance",
-    "to": "Mu Fermat's factorization method"
-  },
-  {
-    "type": "rest",
-    "from": "Theta Boyer–Moore–Horspool algorithm",
-    "to": "Gamma Dijkstra's algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Join algorithms",
-    "to": "Gamma Sieve of Eratosthenes"
-  },
-  {
-    "type": "rest",
-    "from": "Omega Incremental encoding",
-    "to": "Gamma Marching triangles"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Booth's multiplication algorithm",
-    "to": "Gamma Tarjan's off-line least common ancestors algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Omega LL parser",
-    "to": "Gamma Graham scan"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Hirschberg's algorithm",
-    "to": "Gamma Flashsort"
-  },
-  {
-    "type": "queue",
-    "queue": "mu_mu_mu",
-    "write": "Mu Ternary search"
-  },
-  {
-    "type": "queue",
-    "queue": "mu_mu_mu",
-    "read": "Lambda Huang's algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Beta LR parser",
-    "to": "Lambda Approximate counting algorithm"
-  },
-  {
-    "type": "site",
-    "site": "wikipedia",
-    "from": "Lambda Addition-chain exponentiation"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Hash Function",
-    "to": "Lambda Linear interpolation"
-  },
-  {
-    "type": "rest",
-    "from": "Omega LL parser",
-    "to": "Lambda Tonelli–Shanks algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "path_ottmann_bentley",
-    "write": "Nu Euclidean shortest path problem"
-  },
-  {
-    "type": "queue",
-    "queue": "path_ottmann_bentley",
-    "read": "Lambda Bentley–Ottmann algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Tau Sort-Merge Join",
-    "to": "Sigma Heapsort"
-  },
-  {
-    "type": "store",
-    "store": "memcache",
-    "from": "Sigma Shading"
-  },
-  {
-    "type": "rest",
-    "from": "Eta Beam stack search",
-    "to": "Sigma Lempel–Ziv–Oberhumer"
-  },
-  {
-    "type": "queue",
-    "queue": "algorithm_algorithm_s",
-    "write": "Mu SPWGNN"
-  },
-  {
-    "type": "queue",
-    "queue": "algorithm_algorithm_s",
-    "read": "Sigma Fortune's Algorithm"
-  },
-  {
-    "type": "site",
-    "site": "wikipedia",
-    "from": "Phi Hash Function"
-  },
-  {
-    "type": "site",
-    "site": "microsoft",
-    "from": "Phi Join algorithms"
-  },
-  {
-    "type": "rest",
-    "from": "Sigma Heapsort",
-    "to": "Phi bcrypt"
-  },
-  {
-    "type": "queue",
-    "queue": "algorithm_algorithm_gamma",
-    "write": "Gamma Flashsort"
-  },
-  {
-    "type": "queue",
-    "queue": "algorithm_algorithm_gamma",
-    "read": "Phi Damm algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Alpha Levenshtein edit distance",
-    "to": "Phi Johnson algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Phi False position method",
-    "to": "Phi Sweep and prune"
-  },
-  {
-    "type": "queue",
-    "queue": "algorithm_eclat_multiplication",
-    "write": "Tau Multiplication algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "algorithm_eclat_multiplication",
-    "read": "Pi Eclat algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Omega Transitive closure",
-    "to": "Pi Karatsuba algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Omega LL parser",
-    "to": "Pi FELICS"
-  },
-  {
-    "type": "rest",
-    "from": "Theta Jacobi method",
-    "to": "Pi Shading"
-  },
-  {
-    "type": "rest",
-    "from": "Nu Code-excited linear prediction",
-    "to": "Pi Fermat's factorization method"
-  },
-  {
-    "type": "queue",
-    "queue": "pi_counting_pi",
-    "write": "Lambda Approximate counting algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "pi_counting_pi",
-    "read": "Pi Beam stack search"
-  },
-  {
-    "type": "store",
-    "store": "elastic",
-    "from": "Pi prime factors"
-  },
-  {
-    "type": "queue",
-    "queue": "s_transitive_least",
-    "write": "Gamma Tarjan's off-line least common ancestors algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "s_transitive_least",
-    "read": "Pi Transitive closure"
+    "from": "Chi Pratt parser"
   },
   {
     "type": "store",
     "store": "neo4j",
-    "from": "Pi Hamming code"
-  },
-  {
-    "type": "rest",
-    "from": "Gamma EXP2",
-    "to": "Pi Tiger"
-  },
-  {
-    "type": "store",
-    "store": "redis",
-    "from": "Omega Metaphone"
-  },
-  {
-    "type": "queue",
-    "queue": "pi_eclat_exponentiation",
-    "write": "Pi Eclat algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "pi_eclat_exponentiation",
-    "read": "Omega Addition-chain exponentiation"
-  },
-  {
-    "type": "store",
-    "store": "elastic",
-    "from": "Omega LL parser"
-  },
-  {
-    "type": "rest",
-    "from": "Gamma Dijkstra's algorithm",
-    "to": "Omega Dice's coefficient"
-  },
-  {
-    "type": "queue",
-    "queue": "motion_equations_motion",
-    "write": "Mu Newton's equations of motion"
-  },
-  {
-    "type": "queue",
-    "queue": "motion_equations_motion",
-    "read": "Omega LZWL"
-  },
-  {
-    "type": "queue",
-    "queue": "encoding_bentley_omega",
-    "write": "Lambda Bentley–Ottmann algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "encoding_bentley_omega",
-    "read": "Omega Incremental encoding"
-  },
-  {
-    "type": "store",
-    "store": "memcache",
-    "from": "Gamma Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem."
-  },
-  {
-    "type": "store",
-    "store": "redis",
-    "from": "Gamma Bluestein's FFT algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Nu Adaptive histogram equalization",
-    "to": "Gamma Forward-backward algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Hash Function",
-    "to": "Gamma Soundex"
+    "from": "Kappa LPBoost"
   },
   {
     "type": "site",
     "site": "amazon",
-    "from": "Lambda Toom–Cook multiplication"
-  },
-  {
-    "type": "queue",
-    "queue": "line_lambda_delta",
-    "write": "Delta Contour line"
-  },
-  {
-    "type": "queue",
-    "queue": "line_lambda_delta",
-    "read": "Lambda N-body problem"
-  },
-  {
-    "type": "store",
-    "store": "elastic",
-    "from": "Lambda Sieve of Eratosthenes"
-  },
-  {
-    "type": "queue",
-    "queue": "deflate_gamma_s",
-    "write": "Gamma Dijkstra's algorithm"
-  },
-  {
-    "type": "queue",
-    "queue": "deflate_gamma_s",
-    "read": "Lambda DEFLATE"
-  },
-  {
-    "type": "rest",
-    "from": "Eta EXP1",
-    "to": "Psi AKS primality test"
-  },
-  {
-    "type": "queue",
-    "queue": "the_problem_knight",
-    "write": "Gamma Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem."
-  },
-  {
-    "type": "queue",
-    "queue": "the_problem_knight",
-    "read": "Psi Contour line"
-  },
-  {
-    "type": "rest",
-    "from": "Lambda Toom–Cook multiplication",
-    "to": "Psi Discrete logarithm"
+    "from": "Kappa Chan's algorithm"
   },
   {
     "type": "site",
-    "site": "microsoft",
-    "from": "Phi False position method"
+    "site": "google",
+    "from": "Kappa Kosaraju's algorithm"
+  },
+  {
+    "type": "store",
+    "store": "memcache",
+    "from": "Kappa Locality-sensitive hashing"
   },
   {
     "type": "rest",
-    "from": "Gamma Multiplication algorithm",
-    "to": "Phi Booth's multiplication algorithm"
-  },
-  {
-    "type": "rest",
-    "from": "Phi Hirschberg's algorithm",
-    "to": "Phi Hirschberg's algorithm"
+    "from": "Kappa Doomsday algorithm",
+    "to": "Kappa Ridder's method"
   },
   {
     "type": "store",
     "store": "mysql",
-    "from": "Phi Cone algorithm"
+    "from": "Kappa Median filtering"
+  },
+  {
+    "type": "rest",
+    "from": "Pi Clock with Adaptive Replacement",
+    "to": "Kappa Doomsday algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "delta_kappa_watson",
+    "write": "Delta Bowyer–Watson algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "delta_kappa_watson",
+    "read": "Kappa RIPEMD-160"
+  },
+  {
+    "type": "site",
+    "site": "google",
+    "from": "Tau Generational garbage collector"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Gerchberg–Saxton algorithm",
+    "to": "Tau Delta encoding"
+  },
+  {
+    "type": "rest",
+    "from": "Eta Pearson hashing",
+    "to": "Tau Complete-linkage clustering"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Metropolis–Hastings algorithm",
+    "to": "Iota Hopfield net"
+  },
+  {
+    "type": "rest",
+    "from": "Phi Phonetic algorithm",
+    "to": "Iota Pohlig&ndash;Hellman algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Chi General Problem Solver",
+    "to": "Iota Traveling salesman problem"
+  },
+  {
+    "type": "rest",
+    "from": "Gamma Soundex",
+    "to": "Iota Floyd–Warshall algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Gamma Pearson hashing",
+    "to": "Iota Ordered subset expectation maximization"
+  },
+  {
+    "type": "rest",
+    "from": "Omega Pareto interpolation",
+    "to": "Eta Pearson hashing"
+  },
+  {
+    "type": "site",
+    "site": "amazon",
+    "from": "Eta top-down parser suitable for LL(''k'') grammars"
+  },
+  {
+    "type": "rest",
+    "from": "Kappa Locality-sensitive hashing",
+    "to": "Eta Histogram equalization"
+  },
+  {
+    "type": "store",
+    "store": "neo4j",
+    "from": "Gamma Reference counting"
+  },
+  {
+    "type": "rest",
+    "from": "Alpha Image Compression",
+    "to": "Gamma Longitudinal redundancy check"
+  },
+  {
+    "type": "rest",
+    "from": "Omega Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem.",
+    "to": "Gamma Pearson hashing"
+  },
+  {
+    "type": "store",
+    "store": "elastic",
+    "from": "Upsilon Bilinear interpolation"
+  },
+  {
+    "type": "queue",
+    "queue": "algorithm_gerchberg_error",
+    "write": "Iota Error diffusion"
+  },
+  {
+    "type": "queue",
+    "queue": "algorithm_gerchberg_error",
+    "read": "Upsilon Gerchberg–Saxton algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "algorithm_upsilon_kahan",
+    "write": "Omega Kahan summation algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "algorithm_upsilon_kahan",
+    "read": "Upsilon Metropolis–Hastings algorithm"
+  },
+  {
+    "type": "store",
+    "store": "elastic",
+    "from": "Iota Goertzel algorithm"
+  },
+  {
+    "type": "site",
+    "site": "wikipedia",
+    "from": "Iota Zobrist hashing"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Entropy coding with known entropy characteristics",
+    "to": "Iota Error diffusion"
+  },
+  {
+    "type": "rest",
+    "from": "Gamma Soundex",
+    "to": "Iota Exponential-Golomb coding"
+  },
+  {
+    "type": "rest",
+    "from": "Pi Fortuna",
+    "to": "Iota Lempel–Ziv Jeff Bonwick (LZJB)"
+  },
+  {
+    "type": "store",
+    "store": "memcache",
+    "from": "Gamma Lempel–Ziv–Oberhumer"
+  },
+  {
+    "type": "store",
+    "store": "redis",
+    "from": "Gamma Fermat primality test"
+  },
+  {
+    "type": "store",
+    "store": "mysql",
+    "from": "Gamma Discrete Green's Theorem"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Line Drawing: graphical algorithm for approximating a line segment on discrete graphical media.",
+    "to": "Gamma Trigonometric interpolation"
+  },
+  {
+    "type": "store",
+    "store": "memcache",
+    "from": "Gamma Soundex"
+  },
+  {
+    "type": "queue",
+    "queue": "the_heuristic_s",
+    "write": "Omega Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem."
+  },
+  {
+    "type": "queue",
+    "queue": "the_heuristic_s",
+    "read": "Pi Support Vector Machines"
+  },
+  {
+    "type": "rest",
+    "from": "Alpha Image Compression",
+    "to": "Pi Truncated binary exponential backoff"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Knuth–Bendix completion algorithm",
+    "to": "Pi Runge–Kutta methods"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Heapsort",
+    "to": "Pi Differential evolution"
+  },
+  {
+    "type": "store",
+    "store": "elastic",
+    "from": "Pi SHA-1"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Yamartino method",
+    "to": "Omega Freivalds' algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Reed–Solomon error correction",
+    "to": "Omega Boyer–Moore string search algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Kappa Median filtering",
+    "to": "Omega Lempel–Ziv–Stac"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Forward error correction",
+    "to": "Omega Ward's method"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Reed–Solomon error correction",
+    "to": "Eta Clipping"
+  },
+  {
+    "type": "queue",
+    "queue": "bloom_top_bloom",
+    "write": "Kappa top-down parser suitable for LL(''k'') grammars"
+  },
+  {
+    "type": "queue",
+    "queue": "bloom_top_bloom",
+    "read": "Eta Bloom filter"
+  },
+  {
+    "type": "rest",
+    "from": "Gamma Pearson hashing",
+    "to": "Eta k-means clustering"
+  },
+  {
+    "type": "rest",
+    "from": "Phi Phonetic algorithm",
+    "to": "Eta Crank-Nicolson method"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Entropy coding with known entropy characteristics",
+    "to": "Eta large integer powers of a number"
+  },
+  {
+    "type": "rest",
+    "from": "Eta large integer powers of a number",
+    "to": "Eta Kosaraju's algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "yamartino_yamartino_mu",
+    "write": "Mu Pollard's kangaroo algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "yamartino_yamartino_mu",
+    "read": "Upsilon Yamartino method"
+  },
+  {
+    "type": "rest",
+    "from": "Kappa Median filtering",
+    "to": "Upsilon Entropy coding with known entropy characteristics"
+  },
+  {
+    "type": "rest",
+    "from": "Pi SHA-1",
+    "to": "Upsilon Knuth–Bendix completion algorithm"
+  },
+  {
+    "type": "store",
+    "store": "neo4j",
+    "from": "Xi Alpha max plus beta min algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "eta_eta_sort",
+    "write": "Eta Pearson hashing"
+  },
+  {
+    "type": "queue",
+    "queue": "eta_eta_sort",
+    "read": "Xi Sort-Merge Join"
+  },
+  {
+    "type": "rest",
+    "from": "Gamma Soundex",
+    "to": "Xi Ukkonen's algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Pi Truncated binary exponential backoff",
+    "to": "Phi Phonetic algorithm"
+  },
+  {
+    "type": "site",
+    "site": "wikipedia",
+    "from": "Phi Best-first search"
+  },
+  {
+    "type": "queue",
+    "queue": "gamma_s_discrete",
+    "write": "Gamma Discrete Green's Theorem"
+  },
+  {
+    "type": "queue",
+    "queue": "gamma_s_discrete",
+    "read": "Phi Ground state"
+  },
+  {
+    "type": "queue",
+    "queue": "golomb_tree_exponential",
+    "write": "Iota Exponential-Golomb coding"
+  },
+  {
+    "type": "queue",
+    "queue": "golomb_tree_exponential",
+    "read": "Phi Tree sort"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Queuing theory",
+    "to": "Phi Strand sort"
+  },
+  {
+    "type": "rest",
+    "from": "Phi Best-first search",
+    "to": "Omega RIPEMD-160"
+  },
+  {
+    "type": "queue",
+    "queue": "integer_large_integer",
+    "write": "Eta large integer powers of a number"
+  },
+  {
+    "type": "queue",
+    "queue": "integer_large_integer",
+    "read": "Omega large integer powers of a number"
+  },
+  {
+    "type": "rest",
+    "from": "Pi Support Vector Machines",
+    "to": "Omega ''n''th root algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "theorem_sensitive_theorem",
+    "write": "Gamma Discrete Green's Theorem"
+  },
+  {
+    "type": "queue",
+    "queue": "theorem_sensitive_theorem",
+    "read": "Omega Locality-sensitive hashing"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Knuth–Bendix completion algorithm",
+    "to": "Omega Kahan summation algorithm"
+  },
+  {
+    "type": "site",
+    "site": "google",
+    "from": "Delta Petrick's method"
+  },
+  {
+    "type": "site",
+    "site": "wikipedia",
+    "from": "Delta Comb sort"
+  },
+  {
+    "type": "site",
+    "site": "wikipedia",
+    "from": "Delta Bowyer–Watson algorithm"
+  },
+  {
+    "type": "store",
+    "store": "redis",
+    "from": "Delta Tomasulo algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Iota Exponential-Golomb coding",
+    "to": "Delta Phong shading"
+  },
+  {
+    "type": "store",
+    "store": "mysql",
+    "from": "Mu Heapsort"
+  },
+  {
+    "type": "queue",
+    "queue": "solomon_stac_omega",
+    "write": "Omega Lempel–Ziv–Stac"
+  },
+  {
+    "type": "queue",
+    "queue": "solomon_stac_omega",
+    "read": "Mu Reed–Solomon error correction"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Pollard's kangaroo algorithm",
+    "to": "Mu Spline interpolation"
+  },
+  {
+    "type": "rest",
+    "from": "Gamma Longitudinal redundancy check",
+    "to": "Mu Queuing theory"
+  },
+  {
+    "type": "store",
+    "store": "neo4j",
+    "from": "Mu Line Drawing: graphical algorithm for approximating a line segment on discrete graphical media."
+  },
+  {
+    "type": "queue",
+    "queue": "kangaroo_s_s",
+    "write": "Omega ''n''th root algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "kangaroo_s_s",
+    "read": "Mu Pollard's kangaroo algorithm"
+  },
+  {
+    "type": "queue",
+    "queue": "mu_correction_solomon",
+    "write": "Mu Reed–Solomon error correction"
+  },
+  {
+    "type": "queue",
+    "queue": "mu_correction_solomon",
+    "read": "Mu Forward error correction"
+  },
+  {
+    "type": "rest",
+    "from": "Tau Delta encoding",
+    "to": "Mu Minimum degree algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Upsilon Metropolis–Hastings algorithm",
+    "to": "Kappa Computation of π"
+  },
+  {
+    "type": "store",
+    "store": "memcache",
+    "from": "Kappa Symmetric (secret key) encryption"
+  },
+  {
+    "type": "rest",
+    "from": "Tau Complete-linkage clustering",
+    "to": "Kappa top-down parser suitable for LL(''k'') grammars"
+  },
+  {
+    "type": "rest",
+    "from": "Eta Clipping",
+    "to": "Kappa Lax-Wendroff"
+  },
+  {
+    "type": "site",
+    "site": "amazon",
+    "from": "Pi Transitive closure"
+  },
+  {
+    "type": "rest",
+    "from": "Alpha Inside-outside algorithm",
+    "to": "Pi Clock with Adaptive Replacement"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Line Drawing: graphical algorithm for approximating a line segment on discrete graphical media.",
+    "to": "Pi SHA-1"
+  },
+  {
+    "type": "rest",
+    "from": "Omega ''n''th root algorithm",
+    "to": "Pi Fortuna"
+  },
+  {
+    "type": "rest",
+    "from": "Xi Alpha max plus beta min algorithm",
+    "to": "Pi Wang and Landau algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Mu Line Drawing: graphical algorithm for approximating a line segment on discrete graphical media.",
+    "to": "Alpha k-means clustering"
+  },
+  {
+    "type": "rest",
+    "from": "Eta top-down parser suitable for LL(''k'') grammars",
+    "to": "Alpha Inside-outside algorithm"
+  },
+  {
+    "type": "rest",
+    "from": "Omega Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem.",
+    "to": "Alpha Image Compression"
+  },
+  {
+    "type": "store",
+    "store": "mysql",
+    "from": "Alpha Tree sort"
   }
 ]

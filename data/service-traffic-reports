@@ -1,0 +1,992 @@
+[
+  {
+    "name": "Omega Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem. (staging)",
+    "load": 137.07,
+    "ping": 2.24
+  },
+  {
+    "name": "Omega Warnsdorff's algorithm: A heuristic method for solving the Knight's Tour problem. (production)",
+    "load": 445.43,
+    "ping": 2.38
+  },
+  {
+    "name": "Omega Pareto interpolation (staging)",
+    "load": 133.36,
+    "ping": 2.15
+  },
+  {
+    "name": "Omega Pareto interpolation (production)",
+    "load": 2909.75,
+    "ping": 2.44
+  },
+  {
+    "name": "Omega Heap's permutation generation algorithm (staging)",
+    "load": 71.09,
+    "ping": 2.56
+  },
+  {
+    "name": "Omega Heap's permutation generation algorithm (production)",
+    "load": 2179.31,
+    "ping": 2.42
+  },
+  {
+    "name": "Omega Buchberger's algorithm (staging)",
+    "load": 11.97,
+    "ping": 0.34
+  },
+  {
+    "name": "Omega Buchberger's algorithm (production)",
+    "load": 2689.72,
+    "ping": 2.06
+  },
+  {
+    "name": "Chi Stochastic universal sampling (staging)",
+    "load": 14.9,
+    "ping": 2.38
+  },
+  {
+    "name": "Chi Stochastic universal sampling (production)",
+    "load": 1873.52,
+    "ping": 1.41
+  },
+  {
+    "name": "Chi General Problem Solver (staging)",
+    "load": 22.49,
+    "ping": 1.2
+  },
+  {
+    "name": "Chi General Problem Solver (production)",
+    "load": 975.89,
+    "ping": 3.13
+  },
+  {
+    "name": "Chi Pratt parser (staging)",
+    "load": 112.75,
+    "ping": 2.2
+  },
+  {
+    "name": "Chi Pratt parser (production)",
+    "load": 679.07,
+    "ping": 2.12
+  },
+  {
+    "name": "Kappa LPBoost (staging)",
+    "load": 94.21,
+    "ping": 0.99
+  },
+  {
+    "name": "Kappa LPBoost (production)",
+    "load": 812.86,
+    "ping": 2.58
+  },
+  {
+    "name": "Kappa Chan's algorithm (staging)",
+    "load": 98.92,
+    "ping": 1.68
+  },
+  {
+    "name": "Kappa Chan's algorithm (production)",
+    "load": 2346.87,
+    "ping": 3.05
+  },
+  {
+    "name": "Kappa Kosaraju's algorithm (staging)",
+    "load": 131.03,
+    "ping": 1.95
+  },
+  {
+    "name": "Kappa Kosaraju's algorithm (production)",
+    "load": 640.12,
+    "ping": 2.11
+  },
+  {
+    "name": "Kappa Locality-sensitive hashing (staging)",
+    "load": 143.14,
+    "ping": 1.83
+  },
+  {
+    "name": "Kappa Locality-sensitive hashing (production)",
+    "load": 161.31,
+    "ping": 2.14
+  },
+  {
+    "name": "Kappa Ridder's method (staging)",
+    "load": 56.47,
+    "ping": 2.09
+  },
+  {
+    "name": "Kappa Ridder's method (production)",
+    "load": 1424.03,
+    "ping": 1.29
+  },
+  {
+    "name": "Kappa Median filtering (staging)",
+    "load": 37.41,
+    "ping": 1.47
+  },
+  {
+    "name": "Kappa Median filtering (production)",
+    "load": 1725.31,
+    "ping": 1.29
+  },
+  {
+    "name": "Kappa Doomsday algorithm (staging)",
+    "load": 83.87,
+    "ping": 1.03
+  },
+  {
+    "name": "Kappa Doomsday algorithm (production)",
+    "load": 465.21,
+    "ping": 1.82
+  },
+  {
+    "name": "Kappa RIPEMD-160 (staging)",
+    "load": 37.54,
+    "ping": 2.52
+  },
+  {
+    "name": "Kappa RIPEMD-160 (production)",
+    "load": 1946.0,
+    "ping": 1.2
+  },
+  {
+    "name": "Tau Generational garbage collector (staging)",
+    "load": 96.53,
+    "ping": 1.4
+  },
+  {
+    "name": "Tau Generational garbage collector (production)",
+    "load": 367.96,
+    "ping": 1.53
+  },
+  {
+    "name": "Tau Delta encoding (staging)",
+    "load": 141.91,
+    "ping": 1.91
+  },
+  {
+    "name": "Tau Delta encoding (production)",
+    "load": 1170.95,
+    "ping": 2.62
+  },
+  {
+    "name": "Tau Complete-linkage clustering (staging)",
+    "load": 146.06,
+    "ping": 2.26
+  },
+  {
+    "name": "Tau Complete-linkage clustering (production)",
+    "load": 1716.21,
+    "ping": 2.01
+  },
+  {
+    "name": "Iota Hopfield net (staging)",
+    "load": 20.11,
+    "ping": 2.17
+  },
+  {
+    "name": "Iota Hopfield net (production)",
+    "load": 746.06,
+    "ping": 1.42
+  },
+  {
+    "name": "Iota Pohlig&ndash;Hellman algorithm (staging)",
+    "load": 20.25,
+    "ping": 1.77
+  },
+  {
+    "name": "Iota Pohlig&ndash;Hellman algorithm (production)",
+    "load": 426.31,
+    "ping": 2.56
+  },
+  {
+    "name": "Iota Traveling salesman problem (staging)",
+    "load": 9.39,
+    "ping": 3.16
+  },
+  {
+    "name": "Iota Traveling salesman problem (production)",
+    "load": 921.14,
+    "ping": 1.86
+  },
+  {
+    "name": "Iota Floyd–Warshall algorithm (staging)",
+    "load": 87.95,
+    "ping": 1.53
+  },
+  {
+    "name": "Iota Floyd–Warshall algorithm (production)",
+    "load": 2847.12,
+    "ping": 0.66
+  },
+  {
+    "name": "Iota Ordered subset expectation maximization (staging)",
+    "load": 144.37,
+    "ping": 1.51
+  },
+  {
+    "name": "Iota Ordered subset expectation maximization (production)",
+    "load": 759.85,
+    "ping": 2.81
+  },
+  {
+    "name": "Eta Pearson hashing (staging)",
+    "load": 68.2,
+    "ping": 2.66
+  },
+  {
+    "name": "Eta Pearson hashing (production)",
+    "load": 1398.53,
+    "ping": 1.11
+  },
+  {
+    "name": "Eta top-down parser suitable for LL(''k'') grammars (staging)",
+    "load": 71.97,
+    "ping": 2.1
+  },
+  {
+    "name": "Eta top-down parser suitable for LL(''k'') grammars (production)",
+    "load": 1689.1,
+    "ping": 1.91
+  },
+  {
+    "name": "Eta Histogram equalization (staging)",
+    "load": 140.66,
+    "ping": 2.54
+  },
+  {
+    "name": "Eta Histogram equalization (production)",
+    "load": 1296.39,
+    "ping": 0.95
+  },
+  {
+    "name": "Gamma Reference counting (staging)",
+    "load": 105.34,
+    "ping": 0.76
+  },
+  {
+    "name": "Gamma Reference counting (production)",
+    "load": 929.62,
+    "ping": 1.39
+  },
+  {
+    "name": "Gamma Longitudinal redundancy check (staging)",
+    "load": 20.88,
+    "ping": 1.64
+  },
+  {
+    "name": "Gamma Longitudinal redundancy check (production)",
+    "load": 1413.55,
+    "ping": 2.33
+  },
+  {
+    "name": "Gamma Pearson hashing (staging)",
+    "load": 58.11,
+    "ping": 1.67
+  },
+  {
+    "name": "Gamma Pearson hashing (production)",
+    "load": 2425.48,
+    "ping": 1.95
+  },
+  {
+    "name": "Upsilon Bilinear interpolation (staging)",
+    "load": 135.11,
+    "ping": 2.77
+  },
+  {
+    "name": "Upsilon Bilinear interpolation (production)",
+    "load": 1502.61,
+    "ping": 1.76
+  },
+  {
+    "name": "Upsilon Gerchberg–Saxton algorithm (staging)",
+    "load": 17.96,
+    "ping": 2.55
+  },
+  {
+    "name": "Upsilon Gerchberg–Saxton algorithm (production)",
+    "load": 2272.22,
+    "ping": 2.62
+  },
+  {
+    "name": "Upsilon Metropolis–Hastings algorithm (staging)",
+    "load": 88.49,
+    "ping": 1.24
+  },
+  {
+    "name": "Upsilon Metropolis–Hastings algorithm (production)",
+    "load": 1412.07,
+    "ping": 1.8
+  },
+  {
+    "name": "Iota Goertzel algorithm (staging)",
+    "load": 64.08,
+    "ping": 1.13
+  },
+  {
+    "name": "Iota Goertzel algorithm (production)",
+    "load": 1535.39,
+    "ping": 2.92
+  },
+  {
+    "name": "Iota Zobrist hashing (staging)",
+    "load": 80.55,
+    "ping": 2.62
+  },
+  {
+    "name": "Iota Zobrist hashing (production)",
+    "load": 857.63,
+    "ping": 3.14
+  },
+  {
+    "name": "Iota Error diffusion (staging)",
+    "load": 111.59,
+    "ping": 2.0
+  },
+  {
+    "name": "Iota Error diffusion (production)",
+    "load": 1248.26,
+    "ping": 3.17
+  },
+  {
+    "name": "Iota Exponential-Golomb coding (staging)",
+    "load": 67.08,
+    "ping": 1.53
+  },
+  {
+    "name": "Iota Exponential-Golomb coding (production)",
+    "load": 2054.73,
+    "ping": 2.02
+  },
+  {
+    "name": "Iota Lempel–Ziv Jeff Bonwick (LZJB) (staging)",
+    "load": 73.48,
+    "ping": 2.11
+  },
+  {
+    "name": "Iota Lempel–Ziv Jeff Bonwick (LZJB) (production)",
+    "load": 2826.45,
+    "ping": 2.03
+  },
+  {
+    "name": "Gamma Lempel–Ziv–Oberhumer (staging)",
+    "load": 59.87,
+    "ping": 1.5
+  },
+  {
+    "name": "Gamma Lempel–Ziv–Oberhumer (production)",
+    "load": 1411.47,
+    "ping": 2.56
+  },
+  {
+    "name": "Gamma Fermat primality test (staging)",
+    "load": 45.11,
+    "ping": 1.61
+  },
+  {
+    "name": "Gamma Fermat primality test (production)",
+    "load": 2390.73,
+    "ping": 2.1
+  },
+  {
+    "name": "Gamma Discrete Green's Theorem (staging)",
+    "load": 142.65,
+    "ping": 0.55
+  },
+  {
+    "name": "Gamma Discrete Green's Theorem (production)",
+    "load": 2270.42,
+    "ping": 2.98
+  },
+  {
+    "name": "Gamma Trigonometric interpolation (staging)",
+    "load": 119.36,
+    "ping": 1.69
+  },
+  {
+    "name": "Gamma Trigonometric interpolation (production)",
+    "load": 664.21,
+    "ping": 2.26
+  },
+  {
+    "name": "Gamma Soundex (staging)",
+    "load": 132.66,
+    "ping": 2.97
+  },
+  {
+    "name": "Gamma Soundex (production)",
+    "load": 1042.17,
+    "ping": 1.98
+  },
+  {
+    "name": "Pi Support Vector Machines (staging)",
+    "load": 146.07,
+    "ping": 1.1
+  },
+  {
+    "name": "Pi Support Vector Machines (production)",
+    "load": 1588.52,
+    "ping": 1.38
+  },
+  {
+    "name": "Pi Truncated binary exponential backoff (staging)",
+    "load": 36.57,
+    "ping": 1.41
+  },
+  {
+    "name": "Pi Truncated binary exponential backoff (production)",
+    "load": 1503.03,
+    "ping": 1.56
+  },
+  {
+    "name": "Pi Runge–Kutta methods (staging)",
+    "load": 37.45,
+    "ping": 1.3
+  },
+  {
+    "name": "Pi Runge–Kutta methods (production)",
+    "load": 782.2,
+    "ping": 2.48
+  },
+  {
+    "name": "Pi Differential evolution (staging)",
+    "load": 91.24,
+    "ping": 1.68
+  },
+  {
+    "name": "Pi Differential evolution (production)",
+    "load": 137.51,
+    "ping": 1.02
+  },
+  {
+    "name": "Pi SHA-1 (staging)",
+    "load": 5.96,
+    "ping": 1.96
+  },
+  {
+    "name": "Pi SHA-1 (production)",
+    "load": 727.51,
+    "ping": 1.15
+  },
+  {
+    "name": "Omega Freivalds' algorithm (staging)",
+    "load": 7.6,
+    "ping": 1.31
+  },
+  {
+    "name": "Omega Freivalds' algorithm (production)",
+    "load": 135.18,
+    "ping": 3.08
+  },
+  {
+    "name": "Omega Boyer–Moore string search algorithm (staging)",
+    "load": 72.67,
+    "ping": 1.67
+  },
+  {
+    "name": "Omega Boyer–Moore string search algorithm (production)",
+    "load": 1747.48,
+    "ping": 1.11
+  },
+  {
+    "name": "Omega Lempel–Ziv–Stac (staging)",
+    "load": 20.81,
+    "ping": 3.43
+  },
+  {
+    "name": "Omega Lempel–Ziv–Stac (production)",
+    "load": 124.19,
+    "ping": 2.21
+  },
+  {
+    "name": "Omega Ward's method (staging)",
+    "load": 64.32,
+    "ping": 2.5
+  },
+  {
+    "name": "Omega Ward's method (production)",
+    "load": 1795.63,
+    "ping": 1.71
+  },
+  {
+    "name": "Eta Clipping (staging)",
+    "load": 19.1,
+    "ping": 2.05
+  },
+  {
+    "name": "Eta Clipping (production)",
+    "load": 2835.18,
+    "ping": 2.39
+  },
+  {
+    "name": "Eta Bloom filter (staging)",
+    "load": 97.51,
+    "ping": 1.36
+  },
+  {
+    "name": "Eta Bloom filter (production)",
+    "load": 2640.51,
+    "ping": 2.39
+  },
+  {
+    "name": "Eta k-means clustering (staging)",
+    "load": 23.56,
+    "ping": 2.44
+  },
+  {
+    "name": "Eta k-means clustering (production)",
+    "load": 1356.34,
+    "ping": 1.69
+  },
+  {
+    "name": "Eta Crank-Nicolson method (staging)",
+    "load": 91.4,
+    "ping": 2.61
+  },
+  {
+    "name": "Eta Crank-Nicolson method (production)",
+    "load": 1326.65,
+    "ping": 1.54
+  },
+  {
+    "name": "Eta large integer powers of a number (staging)",
+    "load": 16.33,
+    "ping": 2.58
+  },
+  {
+    "name": "Eta large integer powers of a number (production)",
+    "load": 2386.59,
+    "ping": 2.78
+  },
+  {
+    "name": "Eta Kosaraju's algorithm (staging)",
+    "load": 20.1,
+    "ping": 1.21
+  },
+  {
+    "name": "Eta Kosaraju's algorithm (production)",
+    "load": 2544.72,
+    "ping": 3.1
+  },
+  {
+    "name": "Upsilon Yamartino method (staging)",
+    "load": 23.99,
+    "ping": 2.92
+  },
+  {
+    "name": "Upsilon Yamartino method (production)",
+    "load": 284.35,
+    "ping": 2.07
+  },
+  {
+    "name": "Upsilon Entropy coding with known entropy characteristics (staging)",
+    "load": 13.4,
+    "ping": 2.61
+  },
+  {
+    "name": "Upsilon Entropy coding with known entropy characteristics (production)",
+    "load": 2301.24,
+    "ping": 1.74
+  },
+  {
+    "name": "Upsilon Knuth–Bendix completion algorithm (staging)",
+    "load": 21.89,
+    "ping": 1.68
+  },
+  {
+    "name": "Upsilon Knuth–Bendix completion algorithm (production)",
+    "load": 806.16,
+    "ping": 2.66
+  },
+  {
+    "name": "Xi Alpha max plus beta min algorithm (staging)",
+    "load": 61.11,
+    "ping": 1.77
+  },
+  {
+    "name": "Xi Alpha max plus beta min algorithm (production)",
+    "load": 1507.15,
+    "ping": 2.92
+  },
+  {
+    "name": "Xi Sort-Merge Join (staging)",
+    "load": 86.06,
+    "ping": 2.47
+  },
+  {
+    "name": "Xi Sort-Merge Join (production)",
+    "load": 1699.66,
+    "ping": 2.26
+  },
+  {
+    "name": "Xi Ukkonen's algorithm (staging)",
+    "load": 29.74,
+    "ping": 1.77
+  },
+  {
+    "name": "Xi Ukkonen's algorithm (production)",
+    "load": 936.39,
+    "ping": 2.58
+  },
+  {
+    "name": "Phi Phonetic algorithm (staging)",
+    "load": 1.9,
+    "ping": 2.71
+  },
+  {
+    "name": "Phi Phonetic algorithm (production)",
+    "load": 2765.29,
+    "ping": 0.96
+  },
+  {
+    "name": "Phi Best-first search (staging)",
+    "load": 109.25,
+    "ping": 2.07
+  },
+  {
+    "name": "Phi Best-first search (production)",
+    "load": 1864.48,
+    "ping": 1.48
+  },
+  {
+    "name": "Phi Ground state (staging)",
+    "load": 1.94,
+    "ping": 1.68
+  },
+  {
+    "name": "Phi Ground state (production)",
+    "load": 98.97,
+    "ping": 1.82
+  },
+  {
+    "name": "Phi Tree sort (staging)",
+    "load": 22.87,
+    "ping": 1.29
+  },
+  {
+    "name": "Phi Tree sort (production)",
+    "load": 872.58,
+    "ping": 2.88
+  },
+  {
+    "name": "Phi Strand sort (staging)",
+    "load": 116.93,
+    "ping": 3.11
+  },
+  {
+    "name": "Phi Strand sort (production)",
+    "load": 2297.26,
+    "ping": 1.65
+  },
+  {
+    "name": "Omega RIPEMD-160 (staging)",
+    "load": 53.47,
+    "ping": 1.39
+  },
+  {
+    "name": "Omega RIPEMD-160 (production)",
+    "load": 864.92,
+    "ping": 2.24
+  },
+  {
+    "name": "Omega large integer powers of a number (staging)",
+    "load": 17.38,
+    "ping": 2.26
+  },
+  {
+    "name": "Omega large integer powers of a number (production)",
+    "load": 1113.97,
+    "ping": 1.08
+  },
+  {
+    "name": "Omega ''n''th root algorithm (staging)",
+    "load": 19.47,
+    "ping": 1.5
+  },
+  {
+    "name": "Omega ''n''th root algorithm (production)",
+    "load": 2023.75,
+    "ping": 2.44
+  },
+  {
+    "name": "Omega Locality-sensitive hashing (staging)",
+    "load": 45.88,
+    "ping": 2.44
+  },
+  {
+    "name": "Omega Locality-sensitive hashing (production)",
+    "load": 1390.37,
+    "ping": 2.22
+  },
+  {
+    "name": "Omega Kahan summation algorithm (staging)",
+    "load": 66.55,
+    "ping": 1.96
+  },
+  {
+    "name": "Omega Kahan summation algorithm (production)",
+    "load": 1555.54,
+    "ping": 1.33
+  },
+  {
+    "name": "Delta Petrick's method (staging)",
+    "load": 19.62,
+    "ping": 1.31
+  },
+  {
+    "name": "Delta Petrick's method (production)",
+    "load": 600.01,
+    "ping": 2.16
+  },
+  {
+    "name": "Delta Comb sort (staging)",
+    "load": 17.21,
+    "ping": 2.17
+  },
+  {
+    "name": "Delta Comb sort (production)",
+    "load": 2582.85,
+    "ping": 1.85
+  },
+  {
+    "name": "Delta Bowyer–Watson algorithm (staging)",
+    "load": 48.35,
+    "ping": 2.14
+  },
+  {
+    "name": "Delta Bowyer–Watson algorithm (production)",
+    "load": 595.7,
+    "ping": 2.36
+  },
+  {
+    "name": "Delta Tomasulo algorithm (staging)",
+    "load": 54.47,
+    "ping": 1.91
+  },
+  {
+    "name": "Delta Tomasulo algorithm (production)",
+    "load": 1246.73,
+    "ping": 1.41
+  },
+  {
+    "name": "Delta Phong shading (staging)",
+    "load": 24.86,
+    "ping": 2.43
+  },
+  {
+    "name": "Delta Phong shading (production)",
+    "load": 1379.27,
+    "ping": 1.02
+  },
+  {
+    "name": "Mu Heapsort (staging)",
+    "load": 54.58,
+    "ping": 2.19
+  },
+  {
+    "name": "Mu Heapsort (production)",
+    "load": 176.67,
+    "ping": 2.81
+  },
+  {
+    "name": "Mu Reed–Solomon error correction (staging)",
+    "load": 6.64,
+    "ping": 1.15
+  },
+  {
+    "name": "Mu Reed–Solomon error correction (production)",
+    "load": 1324.59,
+    "ping": 1.65
+  },
+  {
+    "name": "Mu Spline interpolation (staging)",
+    "load": 0.21,
+    "ping": 1.84
+  },
+  {
+    "name": "Mu Spline interpolation (production)",
+    "load": 1781.41,
+    "ping": 1.46
+  },
+  {
+    "name": "Mu Queuing theory (staging)",
+    "load": 115.66,
+    "ping": 2.44
+  },
+  {
+    "name": "Mu Queuing theory (production)",
+    "load": 2370.78,
+    "ping": 2.16
+  },
+  {
+    "name": "Mu Line Drawing: graphical algorithm for approximating a line segment on discrete graphical media. (staging)",
+    "load": 97.77,
+    "ping": 2.37
+  },
+  {
+    "name": "Mu Line Drawing: graphical algorithm for approximating a line segment on discrete graphical media. (production)",
+    "load": 2790.55,
+    "ping": 2.21
+  },
+  {
+    "name": "Mu Pollard's kangaroo algorithm (staging)",
+    "load": 120.13,
+    "ping": 2.17
+  },
+  {
+    "name": "Mu Pollard's kangaroo algorithm (production)",
+    "load": 1662.88,
+    "ping": 2.25
+  },
+  {
+    "name": "Mu Forward error correction (staging)",
+    "load": 100.96,
+    "ping": 2.6
+  },
+  {
+    "name": "Mu Forward error correction (production)",
+    "load": 2673.34,
+    "ping": 1.41
+  },
+  {
+    "name": "Mu Minimum degree algorithm (staging)",
+    "load": 119.96,
+    "ping": 1.72
+  },
+  {
+    "name": "Mu Minimum degree algorithm (production)",
+    "load": 2683.31,
+    "ping": 2.34
+  },
+  {
+    "name": "Kappa Computation of π (staging)",
+    "load": 111.82,
+    "ping": 1.53
+  },
+  {
+    "name": "Kappa Computation of π (production)",
+    "load": 438.36,
+    "ping": 1.42
+  },
+  {
+    "name": "Kappa Symmetric (secret key) encryption (staging)",
+    "load": 129.24,
+    "ping": 1.41
+  },
+  {
+    "name": "Kappa Symmetric (secret key) encryption (production)",
+    "load": 2693.62,
+    "ping": 2.59
+  },
+  {
+    "name": "Kappa top-down parser suitable for LL(''k'') grammars (staging)",
+    "load": 102.63,
+    "ping": 0.77
+  },
+  {
+    "name": "Kappa top-down parser suitable for LL(''k'') grammars (production)",
+    "load": 552.96,
+    "ping": 1.62
+  },
+  {
+    "name": "Kappa Lax-Wendroff (staging)",
+    "load": 106.09,
+    "ping": 2.75
+  },
+  {
+    "name": "Kappa Lax-Wendroff (production)",
+    "load": 78.19,
+    "ping": 3.54
+  },
+  {
+    "name": "Pi Transitive closure (staging)",
+    "load": 134.33,
+    "ping": 2.25
+  },
+  {
+    "name": "Pi Transitive closure (production)",
+    "load": 2677.55,
+    "ping": 2.92
+  },
+  {
+    "name": "Pi Clock with Adaptive Replacement (staging)",
+    "load": 127.74,
+    "ping": 1.05
+  },
+  {
+    "name": "Pi Clock with Adaptive Replacement (production)",
+    "load": 921.6,
+    "ping": 2.09
+  },
+  {
+    "name": "Pi SHA-1 (staging)",
+    "load": 123.42,
+    "ping": 1.63
+  },
+  {
+    "name": "Pi SHA-1 (production)",
+    "load": 2854.34,
+    "ping": 3.39
+  },
+  {
+    "name": "Pi Fortuna (staging)",
+    "load": 101.84,
+    "ping": 1.83
+  },
+  {
+    "name": "Pi Fortuna (production)",
+    "load": 2571.72,
+    "ping": 1.86
+  },
+  {
+    "name": "Pi Wang and Landau algorithm (staging)",
+    "load": 138.81,
+    "ping": 2.15
+  },
+  {
+    "name": "Pi Wang and Landau algorithm (production)",
+    "load": 1618.68,
+    "ping": 1.63
+  },
+  {
+    "name": "Alpha k-means clustering (staging)",
+    "load": 60.58,
+    "ping": 2.48
+  },
+  {
+    "name": "Alpha k-means clustering (production)",
+    "load": 2608.34,
+    "ping": 2.21
+  },
+  {
+    "name": "Alpha Inside-outside algorithm (staging)",
+    "load": 43.27,
+    "ping": 2.9
+  },
+  {
+    "name": "Alpha Inside-outside algorithm (production)",
+    "load": 2960.6,
+    "ping": 2.09
+  },
+  {
+    "name": "Alpha Image Compression (staging)",
+    "load": 123.69,
+    "ping": 1.58
+  },
+  {
+    "name": "Alpha Image Compression (production)",
+    "load": 696.43,
+    "ping": 1.45
+  },
+  {
+    "name": "Alpha Tree sort (staging)",
+    "load": 59.63,
+    "ping": 2.11
+  },
+  {
+    "name": "Alpha Tree sort (production)",
+    "load": 2277.74,
+    "ping": 2.6
+  }
+]
