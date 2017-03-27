@@ -5,6 +5,7 @@ require 'json'
 @teams = {}
 @nodes = []
 @flows = []
+@rates = []
 
 def json file 
   JSON.parse File.read(file, :encoding => 'utf-8')
@@ -62,6 +63,16 @@ def flow node
   end
 end
 
+def rates node
+  [{env:'staging',typ:150},{env:'production',typ:3000}].each do |each|
+    @rates << {
+      name: "#{node} (#{each[:env]})",
+      load: (rand()*each[:typ]).round(2),
+      ping: (rand()+rand()+rand()+rand()).round(2)
+    }
+  end
+end
+
 
 def save name, data
   File.open "data/#{name}", 'w' do |file|
@@ -74,3 +85,5 @@ save 'organization-chart', @staff
 save 'source-code-control', @teams.map {|manager, team| project manager, team}
 @nodes.each{ |node| flow node }
 save 'dataflow-diagram', @flows
+@nodes.each{ |node| rates node}
+save 'service-traffic-reports', @rates

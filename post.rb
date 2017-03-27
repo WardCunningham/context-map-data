@@ -15,3 +15,4 @@ end
 post('organization-chart') if [@now.hour, @now.min] == [6, 10]
 post('source-code-control') if ([9,10,11,13,14,15,16].include? @now.hour) && (rand(100) < 20)
 post('dataflow-diagram') if [@now.hour, @now.min] == [8, 40] && (rand(100) < 20)
+post('service-traffic-reports') if rand(100) < 95
