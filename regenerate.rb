@@ -23,7 +23,8 @@ def person manager=nil
   f = any 'ABCDEFGHIJKLMNOPRSTW'.split //
   m = any 'ABCDEFGHIJKLMNOPRSTW'.split //
   l = any @lastnames
-  @staff << {name: "#{f}. #{m}. #{l}", email: "#{f}#{m}#{l}@email.com".downcase, manager: manager}
+  s = "#{2000+rand(17)}-#{1+rand(12)}-#{1+rand(29)}"
+  @staff << {name: "#{f}. #{m}. #{l}", email: "#{f}#{m}#{l}@email.com".downcase, manager: manager, start: s}
   @staff.last
 end
 
