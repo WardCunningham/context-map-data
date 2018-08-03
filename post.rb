@@ -14,7 +14,7 @@ def post slug
 end
 
 def write data, offeset, mode
-  File.open("logs/log.#{@now.wday+offeset}.txt",mode) do |file|
+  File.open("logs/log.#{(@now.wday+offeset)%7}.txt",mode) do |file|
     file.puts data.join("\n")
   end
 end
@@ -27,4 +27,5 @@ post('dataflow-diagram') if [@now.hour, @now.min] == [8, 40] && (rand(100) < 20)
 post('service-traffic-reports') if rand(100) < 95
 
 write @log, 0, 'a'
+sleep 1
 write [], 1, 'w'
